@@ -16,46 +16,42 @@ NavigationToolbar2Tk)
 
 #0-7, 0,2,4,6 are metadata
 #0-1 are 18, 2-3 are 19, 4-5 are 20, 6-7 are 21
-md31018 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\310\metadata.csv"
-sm31018 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\310\summary.csv"
-md31019 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200119\310\metadata.csv"
-sm31019 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200119\310\summary.csv"
-md31020 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200120\310\metadata.csv"
-sm31020 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200120\310\summary.csv"
-md31021 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200121\310\metadata.csv"
-sm31021 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200121\310\summary.csv"
+##IMPORTANT, REPLACE THESE WITH FILE PATH TO SOURCE FILES, 
+##md31018 is metadata for subject 310, in 2018. sm31018 is summary data for subject 310, in 2018. So on.
+md31018 = r""
+sm31018 = r""
+md31019 = r""
+sm31019 = r""
+md31020 = r""
+sm31020 = r""
+md31021 = r""
+sm31021 = r""
 
 
 #8-15, 8, 10, 12, 14, are metadata
-md31118 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\311\metadata.csv"
-sm31118 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\311\summary.csv"
-md31119 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200119\311\metadata.csv"
-sm31119 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200119\311\summary.csv"
-md31120 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200120\311\metadata.csv"
-sm31120 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200120\311\summary.csv"
-md31121 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200121\311\metadata.csv"
-sm31121 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200121\311\summary.csv"
+md31118 = r"C"
+sm31118 = r""
+md31119 = r""
+sm31119 = r""
+md31120 = r""
+sm31120 = r""
+md31121 = r""
+sm31121 = r""
 
 
 #16-23, 16, 18, 20, 22 are metadata
-md31218 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\312\metadata.csv"
-sm31218 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\312\summary.csv"
-md31219 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200119\312\metadata.csv"
-sm31219 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200119\312\summary.csv"
-md31220 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200120\312\metadata.csv"
-sm31220 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200120\312\summary.csv"
-md31221 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200121\312\metadata.csv"
-sm31221 = r"C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200121\312\summary.csv"
+md31218 = r""
+sm31218 = r""
+md31219 = r""
+sm31219 = r""
+md31220 = r""
+sm31220 = r""
+md31221 = r""
+sm31221 = r""
 
 data_arr = [md31018,sm31018,md31019,sm31019,md31020,sm31020,md31021,sm31021,
             md31118,sm31118,md31119,sm31119,md31120,sm31120,md31121,sm31121,
             md31218,sm31218,md31219,sm31219,md31220,sm31220,md31221,sm31221]
-
-
-#df = pd.read_csv(r'C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\310\metadata.csv')
-df = pd.read_csv(r'C:\Users\aleis\Documents\classes\Fall2022\Software\Term_Proj\Dataset\Dataset\20200118\310\summary.csv')
-
-#print(df)
 
 def browseFiles():
     filename = filedialog.askopenfilename(initialdir = "/",
